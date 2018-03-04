@@ -1,0 +1,41 @@
+AntonioTurdo\Bundle\FileBundle\Entity\BaseFile:
+    type: mapped-superclass
+    fields:
+        name:
+            column: name
+            type: string
+            length: 255
+            nullable: false
+        mimeType:
+            column: mime_type
+            type: string
+            length: 255
+            nullable: false
+        size:
+            column: size
+            type: integer
+            nullable: false
+        hash:
+            column: hash
+            type: string
+            length: 128
+            nullable: false
+        binaryContent:
+            column: binary_content
+            type: blob
+            nullable: true
+        createdAt:
+            column: created_at
+            type: datetime
+            nullable: false
+        updatedAt:
+            column: updated_at
+            type: datetime
+            nullable: false
+    lifecycle-callbacks:
+        lifecycle-callback:
+            type: prePersist
+            method: prePersist
+        lifecycle-callback:
+            type: preUpdate
+            method: preUpdate    
