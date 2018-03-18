@@ -1,5 +1,7 @@
 <?php
 
+namespace AntonioTurdo\Bundle\FileBundle\Service;
+
 /**
  * @author Antonio Turdo <antonio.turdo@gmail.com>
  */
