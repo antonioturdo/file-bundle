@@ -5,7 +5,7 @@ namespace AntonioTurdo\Bundle\FileBundle\Entity;
 use AntonioTurdo\Bundle\FileBundle\Model\File;
 
 /**
- * Description of BaseMedia
+ * Description of BaseFile
  *
  * @author Antonio Turdo <antonio.turdo@gmail.com>
  */

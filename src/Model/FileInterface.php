@@ -45,19 +45,9 @@ interface FileInterface {
     public function setHash($hash);
     
     /**
-     * @return int Hash of the file
+     * @return string Hash of the file
      */
     public function getHash();
-    
-    /**
-     * @param mixed $binaryContent
-     */
-    public function setBinaryContent($binaryContent);
-    
-    /**
-     * @return mixed Binary content of the file
-     */
-    public function getBinaryContent();
     
     /**
      * @param \DateTime $createdAt
