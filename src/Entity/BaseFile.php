@@ -11,4 +11,18 @@ use AntonioTurdo\Bundle\FileBundle\Model\File;
  */
 class BaseFile extends File {
     
+    /**
+     * @var mixed
+     */
+    protected $id;    
+    
+    public function getId() {
+        return $this->id;
+    }
+
+    public function setId($id) {
+        $this->id = $id;
+        return $this;
+    }
+
 }

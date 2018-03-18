@@ -1,5 +1,9 @@
 AntonioTurdo\Bundle\FileBundle\Entity\BaseFile:
     type: mapped-superclass
+    id:
+        id:
+            type: integer
+            generator: { strategy: AUTO }    
     fields:
         name:
             column: name
