@@ -1,5 +1,7 @@
 <?php
 
+namespace AntonioTurdo\Bundle\FileBundle\Model\Event;
+
 /**
  * Description of Creationevent
  *
