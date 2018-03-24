@@ -7,5 +7,5 @@ namespace AntonioTurdo\Bundle\FileBundle\Service;
  */
 interface FileManager {
     
-    public function create(\CreationEvent $creationEvent);
+    public function create(\AntonioTurdo\Bundle\FileBundle\Model\Event\CreationEvent $creationEvent);
 }
