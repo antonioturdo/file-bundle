@@ -28,10 +28,6 @@ AntonioTurdo\Bundle\FileBundle\Entity\BaseFile:
             column: updated_at
             type: datetime
             nullable: false
-    lifecycle-callbacks:
-        lifecycle-callback:
-            type: prePersist
-            method: prePersist
-        lifecycle-callback:
-            type: preUpdate
-            method: preUpdate    
+    lifecycleCallbacks:
+        prePersist: [prePersist]
+        preUpdate: [preUpdate]   
